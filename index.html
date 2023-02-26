@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <title>Frontend Mentor | Results summary component</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body
+    class="bg-gray-100 max-[900px]:bg-white flex items-center max-[900px]:items-start justify-center max-[900px]:justify-start h-screen">
+    <main
+      class="w-2/4 h-3/5 max-[900px]:h-full max-[900px]:w-full shadow-xl max-[900px]:shadow-none rounded flex max-[900px]:flex-col">
+      <div
+        class="bg-gradient-to-b from-blue-800 to-blue-500 w-1/2 max-[900px]:w-screen h-full max-[900px]:h-fit rounded-xl max-[900px]:rounded-none max-[900px]:rounded-b-3xl flex flex-col justify-center items-center">
+        <h1
+          class="text-gray-100 font-bold opacity-70 mb-2 relative bottom-6 max-[900px]:bottom-3 max-[900px]:mt-8">
+          Your Result
+        </h1>
+        <div
+          class="rounded-full bg-gradient-to-b from-blue-600 to-blue-500 w-36 h-36 flex flex-col justify-center items-center">
+          <h2 class="text-white font-bold text-6xl">76</h2>
+          <p class="text-gray-300 opacity-70">of 100</p>
+        </div>
+        <div class="flex justify-center flex-col items-center">
+          <h3 class="text-white font-semibold text-2xl mb-2 mt-4">Great</h3>
+          <p class="text-gray-200 text-center mx-8 text-sm max-[900px]:mb-4">
+            You scored higher than 77% of the people who haven taken this tests
+          </p>
+        </div>
+      </div>
+      <div
+        class="w-1/2 h-full max-[900px]:h-3/5 max-[900px]:w-full rounded-r-xl bg-white">
+        <header class="p-6">
+          <p class="font-bold text-gray-500 max-[900px]:text-center">Summary</p>
+        </header>
+        <div
+          class="flex justify-between bg-red-400/10 items-center w-3/5 h-10 px-2 m-auto rounded">
+          <div class="flex">
+            <img
+              src="./assets/images/icon-reaction.svg"
+              class="w-4"
+              aria-hidden="true" />
+            <span
+              class="text-red-500 ml-2 text-base relative bottom-[0.05rem] font-semibold"
+              >Reaction</span
+            >
+          </div>
+          <p class="text-gray-400 font-semibold text-sm">
+            <span class="text-black">80 </span> / 100
+          </p>
+        </div>
+        <div
+          class="flex mt-4 justify-between bg-yellow-400/10 items-center w-3/5 h-10 px-2 m-auto rounded">
+          <div class="flex">
+            <img
+              src="./assets/images/icon-memory.svg"
+              class="w-4"
+              aria-hidden="true" />
+            <span
+              class="text-yellow-500 ml-2 text-base relative bottom-[0.05rem] font-semibold"
+              >Memory</span
+            >
+          </div>
+          <p class="text-gray-400 font-semibold text-sm">
+            <span class="text-black">92 </span> / 100
+          </p>
+        </div>
+        <div
+          class="flex justify-between mt-4 bg-green-400/10 items-center w-3/5 h-10 px-2 m-auto rounded">
+          <div class="flex items-center">
+            <img
+              src="./assets/images/icon-verbal.svg"
+              class="w-4"
+              aria-hidden="true" />
+            <span
+              class="text-green-500 ml-2 text-base relative bottom-[0.05rem] font-semibold"
+              >Verbal</span
+            >
+          </div>
+          <p class="text-gray-400 font-semibold text-sm">
+            <span class="text-black">61 </span> / 100
+          </p>
+        </div>
+        <div
+          class="flex justify-between mt-4 bg-blue-400/10 items-center w-3/5 h-10 px-2 m-auto rounded">
+          <div class="flex items-center">
+            <img
+              src="./assets/images/icon-visual.svg"
+              class="w-4"
+              aria-hidden="true" />
+            <span
+              class="text-blue-500 ml-2 text-base relative bottom-[0.05rem] font-semibold"
+              >Visual</span
+            >
+          </div>
+          <p class="text-gray-400 font-semibold text-sm">
+            <span class="text-black">72 </span> / 100
+          </p>
+        </div>
+        <div
+          class="cursor-pointer flex mt-8 bg-black/70 justify-center items-center w-3/5 h-10 px-2 m-auto rounded-xl">
+          <button class="text-white font-semibold">Continue</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
